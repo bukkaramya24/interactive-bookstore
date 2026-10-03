@@ -1,16 +1,72 @@
-# React + Vite
+# 📚 Interactive Bookstore Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive bookstore application built using ReactJS. Users can browse books, search and filter books, view book details, manage their shopping cart, and place orders.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://interactive-bookstore-green.vercel.app
 
-## React Compiler
+## 💻 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/bukkaramya24/interactive-bookstore
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🏠 Home page
+- 📚 Browse books
+- 🔍 Search books
+- 🏷️ Filter books by category
+- 📖 View book details
+- 🛒 Add books to cart
+- ➕ Increase book quantity
+- ➖ Decrease book quantity
+- ❌ Remove books from cart
+- 💰 Automatic cart total calculation
+- 📝 Checkout form
+- ✅ Order placement
+- 🎉 Order success page
+- 📱 Responsive user interface
+
+## 🛠️ Technologies Used
+
+- ReactJS
+- JavaScript
+- HTML5
+- CSS3
+- React Router
+- React Context API
+- Vite
+- Git
+- GitHub
+- Vercel
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+├── context/
+├── data/
+├── pages/
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+
+
+## 📸 Screenshots
+
+### Home Page
+![Home Page](./screenshots/home.png)
+
+### Books Page
+![Books Page](./screenshots/books.png)
+
+### Books Collection
+![Books Collection](./screenshots/books-more.png)
+
+### Shopping Cart
+![Shopping Cart](./screenshots/cart-filled.png)
+
+### Empty Cart
+![Empty Cart](./screenshots/cart-empty.png)
